@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    background-image: url(bg.jpg);
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.summary {
+    width: 250px;
+    height: 150px;
+    background-color: rgba(0, 50, 7, 0.804);
+    padding-left: 75px;
+    padding-top: 35px;
+    border-radius: 9px;
+    margin-left: 50px;
+    box-sizing: border-box;
+}
+
+.summary ul{
+    list-style-image: url(Goa.png);
+}
+
+.content {
+    width: 900px;
+    background-color: rgba(0, 50, 7, 0.967);
+    padding: 15px;
+    border-radius: 9px;
+    margin-top: 0px;
+    top: 0;
+}
+
+.container {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 139px;
+}
+
+.goback {
+    width: 150px;
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: aliceblue;
+    margin-left: 9px;
+    margin-bottom: 9px;
+    border-radius: 9px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(0, 82, 11);
+    transition: .5s;
+    display: block;
+}
+.button {
+    position: fixed;
+    bottom: 0;
+}
+
+a:hover {
+    transform: scale(1.03);
+}
